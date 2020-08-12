@@ -11,3 +11,5 @@ include ':sample-screen-color'
 include ':sample-screen-badge'
 include ':recycler-view'
 include ':espresso-testing-bootstrap'
+rootProject.name = 'locking-single-file'
+enableFeaturePreview('ONE_LOCKFILE_PER_PROJECT')
